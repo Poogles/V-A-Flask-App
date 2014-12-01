@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+    <head>
+        <title>Cache Smash</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <div id="container">
+            <div class="title">
+                <h1>Result</h1>
+            </div>
+            <div id="content">
+                URL Cleared: {{url}}
+            </br>
+                {{response}}
+            </div>
+        </div>
+    </body>
+</html>
